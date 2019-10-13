@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MageHelper Print Hello World Simple module
+ *
+ * @package      MageHelper_PrintHelloWorld
+ * @author       Kishan Savaliya <kishansavaliyakb@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="magehelper" frontName="magehelper">
+            <module name="MageHelper_PrintHelloWorld" />
+        </route>
+    </router>
+</config>

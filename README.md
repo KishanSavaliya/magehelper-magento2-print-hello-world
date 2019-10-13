@@ -181,3 +181,14 @@ class World extends \Magento\Framework\App\Action\Action
 
 - Run following URL in web browser to check output.
 
+~~~
+http://example.com/magehelper/hello/world
+~~~
+
+![MageHelper Print Hello World Simple module output](https://github.com/KishanSavaliya/magehelper-magento2-print-hello-world/blob/master/MageHelper/MageHelper-PrintHelloWorld-Output.png)
+
+
+## Extra Notes :
+
+- If we do not need to set controller or action name (like hello or world) then magento will automatically use index for both so if we run url only with our route name (like `http://example.com/magehelper/`) then magento will find Index Controller and Index action. So for that we need to add code in Index.php file here `app/code/MageHelper/PrintHelloWorld/Controller/Index/Index.php` instead of `app/code/MageHelper/PrintHelloWorld/Controller/Hello/World.php`
+
